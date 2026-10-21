@@ -1,16 +1,50 @@
-# React + Vite
+#  KisanSetu
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### A Farmer-to-Consumer Marketplace
 
-Currently, two official plugins are available:
+KisanSetu is a web application project designed to help farmers showcase their crops and connect with potential buyers through a digital marketplace.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+##  Problem Statement
 
-## React Compiler
+Farmers may face challenges reaching consumers directly. KisanSetu explores how technology can make crop discovery and direct connections between farmers and buyers easier.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+##  Current Features
 
-## Expanding the ESLint configuration
+- Browse crop listings
+- View crop prices and available quantities
+- React-based user interface
+- Supabase integration for crop data
+- Crop listing interface for marketplace use
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Tech Stack
+
+- React
+- Vite
+- JavaScript
+- Supabase
+- CSS
+
+##  Run Locally
+
+1. Install Node.js.
+2. Clone this repository.
+3. Open the project folder in a terminal.
+4. Run `npm install`.
+5. Create a local `.env` file with the required Supabase environment variables.
+6. Run `npm run dev`.
+
+##  Environment Variables
+
+Keep credentials in your local `.env` file. Never commit secret keys or passwords to GitHub.
+
+##  Project Status
+
+KisanSetu is under development. Features and integrations should be tested before use.
+
+##  Vision
+
+To explore a more accessible digital marketplace connecting farmers and buyers.
+
+---
+
+Developed as a project focused on agricultural technology and digital marketplaces.
